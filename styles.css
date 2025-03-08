@@ -3,11 +3,11 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .container {
     margin: 0 auto;
-    justify-content: center;
     align-items: center;
     border: 1px solid black;
 }
@@ -25,4 +25,8 @@ body {
     text-align: center;
     justify-content: center;
     margin: 30px;
+}
+
+button {
+    padding: 10px 16px;
 }
